@@ -31,8 +31,8 @@ from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
 
 
 # importing the necessary files
-faceCascade = cv2.CascadeClassifier(r'C:\Users\Gauri Singh\Desktop\Deep Learning projects\Face_Emotion_detection_Puroshotam\haarcascade_frontalface_default.xml')
-model =load_model(r'C:\Users\Gauri Singh\Desktop\Deep Learning projects\Face_Emotion_detection_Puroshotam\model.h5')
+faceCascade = cv2.CascadeClassifier(r'haarcascade_frontalface_default.xml')
+model =load_model(r'model.h5')
 
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
 
