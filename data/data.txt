@@ -1,0 +1,6 @@
+This model has been trained on FER-2013 dataset.
+
+Download the data from here:-
+
+            https://www.kaggle.com/msambare/fer2013
+
